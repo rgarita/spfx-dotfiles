@@ -112,6 +112,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PATH=$PATH:/opt/oryx:/opt/nodejs/lts/bin:/opt/dotnet/sdks/lts:/opt/python/latest/bin:/opt/yarn/stable/bin:~/.local/bin:~/.npm-global/bin
+PATH=$PATH:/opt/oryx:/opt/nodejs/10.17/bin:/opt/dotnet/sdks/lts:/opt/python/latest/bin:/opt/yarn/stable/bin:~/.local/bin:~/.npm-global/bin
 
 PS1='\[]0;\u: \w\]\[[01;32m\]\u\[[00m\]:\[[01;34m\]\w\[[00m\]$ '
